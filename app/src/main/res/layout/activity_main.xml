@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".UI.MainActivity">
 
     <ScrollView
         android:id="@+id/scrollView2"
@@ -30,6 +30,7 @@
                 android:background="@drawable/right_chat"
                 android:padding="5dp"
                 android:text="Question"
+                android:gravity="right"
                 android:textColor="@color/white"
                 android:textSize="18sp" />
 
@@ -40,7 +41,7 @@
                 android:layout_margin="5dp"
                 android:layout_marginLeft="200dp"
                 android:background="@drawable/left_chat"
-                android:gravity="right"
+                android:gravity="left"
                 android:padding="5dp"
                 android:text="Answer"
                 android:textColor="@color/black"
@@ -64,6 +65,7 @@
         app:layout_constraintStart_toStartOf="parent">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/idEdQ"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:background="@color/white"
