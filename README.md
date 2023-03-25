@@ -31,9 +31,7 @@
 #References
 
 * [Documentation](https://openai.com/blog/introducing-chatgpt-and-whisper-apis)
-* 
 * [Generate API Key](https://platform.openai.com/account/api-keys)
-* 
 * [Tutorial](https://www.geeksforgeeks.org/how-to-build-a-chatgpt-like-app-in-android-using-openai-api/)
 
 
